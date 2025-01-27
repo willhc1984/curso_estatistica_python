@@ -25,6 +25,6 @@ def amostragem_sistematica(dataset, amostras):
     return amostra_sistematica
 
 
-df_amostras_sistematica = amostragem_sistematica(dataset, 100)
+df_amostras_sistematica = amostragem_sistematica(dataset, 250)
 print(df_amostras_sistematica.shape)
 print(df_amostras_sistematica)
